@@ -1,0 +1,50 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 10;
+    padding: 0;
+    background-image: url(fundo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+nav {
+    position: absolute;
+    top: 1%; 
+    right: 450px;
+}
+
+.row {
+    height: 30%;
+    width: 70%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input, textarea {
+  position: center;
+  width: 95%;
+  padding:  5px;
+  margin-bottom: 6px;
+  background-color: #AEFF86;
+  border: 2px solid #3F7C37;
+}
+
+label{
+  position: center;
+  font-weight: bold;
+  padding-bottom: 13px;
+  display: inline-block;
+  background-color: #AEFF86;
+}
+
+button{
+  position: center;
+  background-color: #AEFF86;
+  border: 2px solid #3F7C37;
+  padding-bottom: 15px;
+  padding: 8px;
+  border-radius: 3px;
+}

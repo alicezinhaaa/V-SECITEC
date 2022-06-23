@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #ADFF86;
+}
+
+/* Titulo V secitec*/
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #8EFF58;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Design da barra de navegação */
+.topnav {
+  overflow: hidden;
+  background-color: #76D847;
+}
+
+/* barra de links - design */
+.topnav a {
+  float: left;
+  display: block;
+  color: #050605;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/*Mudar a cor quando o mouse ficar em cima */
+.topnav a:hover {
+  background-color: #ADFF86;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Mudar a cor da coluna na direita */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Tabelas de fundo */
+.fakeimg {
+  background-color: #76D847;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Barra lá em baixo - footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #76D847;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>V SECITEC</h1>
+  <p>Universos e Multiversos</p>
+</div>
+
+<div class="topnav">
+  <a href="#">IFPB</a>
+  <a href="index.html" target="_blank" >Inscreva-se aqui</a>
+  
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Cronograma</h2>
+      <div class="fakeimg" style="height:200px;">Dia 1 - Palestras sobre Universos e Tecnologia<br></br>
+      Dia 2 - Projetos<br></br>
+      Dia 3 - Gincana</div>
+    </div>
+    <div class="card">
+      <h2>Convidados Especiais</h2>
+  
+      <div class="fakeimg" style="height:200px;">Douglas Xavier - Professor do IFPB Campus Itaporanga<br></br>
+      Victor Pereira Gomes - Professor de Filosofia<br></br>
+      Maélie Bessa - N sei </div>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>O que é a SECITEC?</h2>
+      
+      <p>A Secitec - Semana de Educação, Ciência e Tecnologia é um evento acadêmico e científico realizado anualmente pelos campi do IFPB. 
+
+Produzida por servidores (docentes e técnicos) e estudantes, a Secitec do Campus Itaporanga possui uma programação diversificada, com compartilhamento de conhecimento, intercâmbio entre toda a comunidade acadêmico da cidade de Itaporanga e outras cidades do Vale do Piancó, além de atividade recreativas.</p>
+    </div>
+    <div class="card">
+      <h3>Como faço para participar?</h3>
+      <p>É necessário que você vá até a barra de navegação, aperte em "Inscreva-se aqui" e preencha as informações necessárias. O evento acontecerá no IFPB Campus Itaporanga.</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Contamos com sua presença</h2>
+</div>
+
+</body>
+</html>
+
+
